@@ -27,8 +27,8 @@ public class uri1061 {
 		s = sc.next();
 		Z2 = sc.nextInt();
 		
-		inicio = (W1-1)*24*60*60 + X1*60*60 + Y1*60 + Z1;
-		fim = (W2-1)*24*60*60 + X2*60*60 + Y2*60 + Z2;
+		inicio = W1*24*60*60 + X1*60*60 + Y1*60 + Z1;
+		fim = W2*24*60*60 + X2*60*60 + Y2*60 + Z2;
 		duracao = fim - inicio;
 		
 		W = duracao / (24*60*60);
